@@ -2,7 +2,7 @@
 include 'includes/functions.php';
 
 if (isset($_POST['id']) && isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone'])) {
-    $studentID = $_POST['id'];
+    $id = $_POST['id'];
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];  
